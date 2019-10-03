@@ -2,12 +2,12 @@
   "manifest_versionL": 1,
   "name": "Direct Return",
   "version": "1.0",
-  "description": "auto fill direct return"
+  "description": "auto fill direct return",
   "content_scripts": [
     {
       "js":["content.js"]
     }
-  ]
+  ],
   "permissions": [
     "https://www.campusship.ups.com/cship/create?ActionOriginPair=default___StartSession&loc=en_US"
   ]
