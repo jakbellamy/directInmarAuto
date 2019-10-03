@@ -9,6 +9,6 @@
     }
   ]
   "permissions": [
-    ""https://www.campusship.ups.com/cship/create?ActionOriginPair=default___StartSession&loc=en_US"
+    "https://www.campusship.ups.com/cship/create?ActionOriginPair=default___StartSession&loc=en_US"
   ]
 }
