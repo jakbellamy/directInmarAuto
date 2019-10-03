@@ -1,5 +1,5 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "Direct Return",
   "version": "1.0",
   "description": "auto fill direct return",
