@@ -5,7 +5,7 @@
   "description": "auto fill direct return",
   "content_scripts": [
     {
-      "matches": ["https://www.campusship.ups.com/cship/create?ActionOriginPair=default___StartSession&loc=en_US"],
+      "matches": ["https://www.campusship.ups.com/cship/create/*"],
       "run_at": "document_end",
       "js":["content.js"]
     }
