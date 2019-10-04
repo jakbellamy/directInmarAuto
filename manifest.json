@@ -6,6 +6,7 @@
   "content_scripts": [
     {
       "matches": ["https://www.campusship.ups.com/cship/create?ActionOriginPair=default___StartSession&loc=en_US"],
+      "run_at": "document_end",
       "js":["content.js"]
     }
   ],
