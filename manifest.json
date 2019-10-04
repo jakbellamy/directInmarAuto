@@ -5,12 +5,12 @@
   "description": "auto fill direct return",
   "content_scripts": [
     {
-      "matches": ["https://www.campusship.ups.com/cship/create/*"],
+      "matches": ["https://www.campusship.ups.com/cship/*"],
       "run_at": "document_end",
       "js":["content.js"]
     }
   ],
   "permissions": [
-    "https://www.campusship.ups.com/cship/create?ActionOriginPair=default___StartSession&loc=en_US"
+    "https://www.campusship.ups.com/cship/*"
   ]
 }
