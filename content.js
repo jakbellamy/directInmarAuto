@@ -29,5 +29,5 @@ const runScript = () => {
 	autoFill()
 	submit()
 }
-
+console.log("test fired!")
 runScript()
